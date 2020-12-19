@@ -41,7 +41,7 @@ services:
         target: /usr/share/logstash/pipeline
         read_only: true
     ports:
-      - "5014:5014"
+      - "5014:5014/udp"
       - "5000:5000/tcp"
       - "5000:5000/udp"
       - "9600:9600"
